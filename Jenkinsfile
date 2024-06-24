@@ -1,12 +1,10 @@
-def gv
-
 pipeline {
     agent any
     stages {
         stage("init") {
             steps {
                 script {
-                    echo "Hello world testing"
+                    echo "Hello world testing webhook"
                     //gv = load "script.groovy"
                 }
             }
