@@ -5,6 +5,7 @@ pipeline {
             steps {
                 script {
                     echo "Hello world testing webhook testing"
+                    echo "hello jenkins"
                     //gv = load "script.groovy"
                 }
             }
