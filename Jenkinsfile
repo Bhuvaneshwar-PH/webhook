@@ -4,7 +4,7 @@ pipeline {
         stage("init") {
             steps {
                 script {
-                    echo "Hello world testing webhook"
+                    echo "Hello world testing webhook testing"
                     //gv = load "script.groovy"
                 }
             }
